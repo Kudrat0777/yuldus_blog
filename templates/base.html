@@ -1,0 +1,33 @@
+{% load static %}
+
+{% include 'includes/head.html' %}
+
+<body>
+
+  {% include 'includes/menu.html' %}
+
+  <nav class="navbar navbar-light custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Yuldusaa.</a>
+      <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar">
+        <span></span>
+      </a>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    {% include 'includes/section.html' %}
+
+    {% include 'includes/client.html' %}
+
+    {% include 'includes/service.html' %}
+
+    {% include 'includes/review.html' %}
+
+  </main>
+
+  {% include 'includes/footer.html' %}
+  {% include 'includes/script.html' %}
+
+</body>
